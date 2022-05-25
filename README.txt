@@ -21,4 +21,4 @@ and takes about,30 seconds per lookup. So if this project gets bigger, will need
 Additionally, you could just ask... For 16 friends this is light work, but if this project ever made it to V2, this is an awful solution. 
 This is needed because each carrier has a different SMS gateway address. 
 
-This program is successfully runnning on a Pi3 with Raspian OS. 
+This program is successfully running on a Pi3 with Raspian OS. 
