@@ -1,6 +1,6 @@
 #Harlan Ferguson 2022-05-22
 #Program that takes list of friends and texts them on their birthdays
-#for details see documentation.txt
+#for details see README.txt
 import datetime, smtplib, credentials as cred
 from functions import convertCarrier as cc
 now = datetime.datetime.now()
