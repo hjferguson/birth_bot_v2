@@ -2,15 +2,16 @@
 
 <h1>Set up</h1>
 
-🟢[Download Python 3.10](https://www.python.org/downloads/)
+🟢[Download Python 3.10+](https://www.python.org/downloads/) and pip
+(Keeping in mind your current version of python on your raspberry pi, if you are going to host there)
 
-🟢Fill in secrets
-    
-    cp example.env .env
-    
-    Replace the values with your application details on Twilio's site
+🟢Run the setup bash script from the terminal
+    ./setup.sh
 
-🟢Copy csv template
+    You may not have permissions so run this and try again:
+        chmod +x setup.sh
 
-    cp examp_birthdays.csv birthdays.csv
+🟢After running the set up, add your credentials to .env and the people you want to message in birthdays.csv
+
+🟢Run main.py when you are ready to start. I have it set up to run everyday at 12pm using cron jobs on my Pi3. 
 
