@@ -11,7 +11,17 @@
     You may not have permissions so run this and try again:
         chmod +x setup.sh
 
-🟢After running the set up, add your credentials to .env and the people you want to message in birthdays.csv
+🟢After running the set up, add your credentials to .env and the people you want to message in birthdays.csv. For formatting, use a '+' followed by the country calling code, then the number. For the day and month entry, if single digit, just use the digit. Don't use '0'
+    For example: 
 
-🟢Run main.py when you are ready to start. I have it set up to run everyday at 12pm using cron jobs on my Pi3. 
+    Correct:
+    +11234567890,Harlan,3,30 ✅
+    Bad Month:
+    +11234567890,Harlan,03,30⛔
+    Bad Day:
+    +11234567890,Harlan,3,06 ⛔
+    Bad Number:
+    1234567890,Harlan,3,30   ⛔
 
+
+🟢Run main.py when you are ready to start. I have it set up to run everyday at 9am using cron jobs on my Pi3. 

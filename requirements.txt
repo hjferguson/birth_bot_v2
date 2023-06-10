@@ -9,10 +9,15 @@ dotenv==0.0.5
 frozenlist==1.3.3
 idna==3.4
 multidict==6.0.4
+numpy==1.24.3
+pandas==2.0.2
 PyJWT==2.7.0
+python-dateutil==2.8.2
 python-dotenv==1.0.0
 pytz==2023.3
 requests==2.31.0
+six==1.16.0
 twilio==8.2.2
+tzdata==2023.3
 urllib3==2.0.3
 yarl==1.9.2
