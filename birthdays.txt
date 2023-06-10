@@ -1,6 +1,0 @@
-#Delete these notes once ready to run program
-#Only works with Canadian carriers. Need to update functions.py to include American
-#Strictly follow the below format
-#cellPhoneNumber name=month-day=carrier
-#example below:
-#3123211233 Harlan=05-22=rogers
