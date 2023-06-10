@@ -13,7 +13,7 @@ client = Client(ACCOUNT_SID,AUTH_TOKEN)
 message = client.messages.create(
     body="deez nuts",
     from_=TWILIO_PHONE_NUMBER,
-    to="+16477039139"
+    to=""
 )
 
 print(message.sid)
