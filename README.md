@@ -25,3 +25,9 @@
 
 
 🟢Run main.py when you are ready to start. I have it set up to run everyday at 9am using cron jobs on my Pi3. 
+
+<h3>Important note for Pi deployment</h3>
+Issues with SSL on Raspbian Python 3.9+
+I ended up using python 3.7 and updating the requirements.txt to be compatible. 
+See Rpi3_requirements.txt. Due to laziness, if deploying on a pi, just delete the
+current requirements.txt and rename Rpi3_requirements.txt. Have fun 🙃
